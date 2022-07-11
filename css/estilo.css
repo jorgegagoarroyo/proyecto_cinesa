@@ -1,0 +1,229 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.container_fluid, .container-fluid{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container{
+    width:1300px;
+}
+.logo_mini{
+    width:30px;
+}
+.menu-top1{
+    /*border: red solid;*/
+    margin-top:10px;
+}
+.menu-top1>ul{
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    column-gap: 10px;
+    align-items: center;
+}
+.menu-top1 a{
+    color:#808080
+}
+.menu-top1>ul>li:hover{
+    text-decoration: underline;
+}
+.top2{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.menu-top2{
+    width: 100%;
+    padding-bottom: 5px;
+}
+.logo{
+    width: 300px;
+}
+.logo img{
+    width: 100%;
+    padding: 0 50px 0 0;
+}
+.top2 ul{
+    list-style: none;
+    display: flex;
+}
+.top2 ul li{
+    padding: 15px;
+    width: 100%;
+    text-align: center;
+}
+.top2 ul li:hover{
+    background-color: #fff10e ;
+}
+/* main */
+#principal{
+    background-image: url(../imagenes/poster.jpg);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: top;
+    background-size: cover;
+    background-color:#808080;
+}
+.separador{
+    height: 250px;
+}
+.content{
+    background-color: #f3f2f2;
+}
+.menu-principal ul{
+    list-style: none;
+    display: flex;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    margin: 10px;
+    gap:7px;
+    text-align: center;
+}
+.menu-principal ul li{
+    width:100%;
+    padding: 10px;
+    background-color: #d5d5d5;
+}
+.menu-principal li a{
+    color:#0076ec;
+}
+.menu-principal li:hover{
+    background-color: #0076ec;
+}
+.menu-principal li:hover a{
+    color: #f3f2f2;
+}
+.filtro{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-family: 'Oswald', sans-serif;
+    color:#0076ec;
+    gap: 20px;
+    padding-right: 10px;
+}
+.filtro a{
+    color:#0076ec;
+    font-weight: bold;
+}
+.filtro ul{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+.filtro li{
+    padding: 10px;
+    background-color: white;
+}
+.filtro li:hover{
+    background-color: #0076ec;
+}
+.filtro li:hover a{
+    color:white;
+    text-decoration: underline;
+}
+/* fichas*/
+.fichas{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    font-family: "Oswald";
+    padding: 50px;
+    /*border: red solid;*/
+}
+.ficha{
+    box-sizing: border-box;
+    width: 260px;
+    height: 450px;
+    background-color:#f3f2f2;
+    padding: 10px;
+    border-radius: 2%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0px 0px 20px 5px #d5d5d5;
+    /*border: green solid;*/
+}
+.ficha img{
+    box-sizing: border-box;
+    width: 100%;
+}
+.ficha a{
+    color:#0076ec;
+    font-size: 18px;
+    width: 100%;
+    height: 90%;
+}
+.ficha a h3{
+    height: 10%;
+    
+}
+.ficha-button{
+    width: 100%;
+    text-align:left;
+}
+.ficha-button .estrellas{
+    color: #fff10e;
+}
+.ficha-button .votos,.share{
+    color: black;
+}
+/* footer*/
+
+.iconos{
+    color:#004987;
+    display: flex;
+    justify-content: center;
+    margin: 50px 0;
+}
+.iconos ul{
+    display: flex;
+    list-style: none;
+    font-size: 50px;
+    gap:50px
+}
+footer h3{
+    color:#004987;
+    font-weight: bold;
+}
+footer .container{
+    display: flex;
+    justify-content: space-around;
+}
+.col ul{
+    list-style: none;
+}
+.col li{
+    margin-top: 10px;
+}
+.col a{
+    color: #808080;
+}
+.apps ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.boton-inferior{
+    position: fixed;
+    font-size: 50px;
+    right: 25px;
+    bottom: 25px;
+    color:#004987;
+    border: none;
+    background-color: inherit;
+}
+.footer{
+    margin-bottom: 50px;
+}
